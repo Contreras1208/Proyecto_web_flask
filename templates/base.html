@@ -7,15 +7,55 @@
 
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-2/css/all.min.css">
     <script src='main.js'></script>
 </head>
 <body>
+    <div class="header">
+        <h1>Estados Unidos</h1> <br>
+    </div>
+    <nav class="navbar">
     <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#imgs">Postales</a></li>
+        <li><a href="#estadisticas__">Estadisticas</a></li>
+        <li><a href="link">Contactanos</a></li>
+        <li><a href="#info">Acerca de mí</a></li>
+        <li><a href="#RedesSociales">Redes sociales</a></li>
       </ul>
+    </nav>
     {% block contents %} {% endblock %} 
+
+
+    {% block imagenes %} {% endblock %}
+    
+    <br>
+    {% block estadisticas %} 
+    
+    {% endblock %}
+
+
+    {% block sobreMi %} 
+
+    {% endblock %}
+
+
+
+
+
+
+    <footer>
+        
+        <div class="RedesSociales"> <!--Parte de contacto-->
+            <h4 id="RedesSociales"><b><u>Redes Sociales</u></b></h4>
+            <ul>
+                <li type="none">20200092@esen.edu.sv</li> 
+            </ul>
+            <div class="social_networks">
+                <a href="https://github.com/Contreras1208" class="github"><i class="fab fa-github"></i></a>
+            </div>
+        </div>   
+    </footer>
 </body>
 </html>

@@ -1,0 +1,190 @@
+.header {
+    float: left;
+    width: 2000px;
+    height: 200px;
+    font-size: 50px;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-forma-franja-geometrica-minima_1409-1014.jpg);
+    font-style: oblique;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    background-color:white;
+    color:black;
+    background-image: url(https://st2.depositphotos.com/3008028/5542/i/950/depositphotos_55426393-stock-photo-light-grey-background.jpg);
+    background-size: cover;
+    height:40px;
+    
+}
+
+.navbar li{
+    display:inline-block;
+    text-align: center;
+}
+
+.navbar li a{
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+    background-color: blanchedalmond;
+    padding: 12px;
+    width: 150px;
+    height:24px;
+    font-size: 24px;
+    border-radius: 100%;
+    opacity: 0.6;
+    font-style: oblique;
+}
+
+
+
+.body{
+    background-color: lightslategray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.container{
+    margin: auto;
+    background-color: whitesmoke;
+    width:900px;
+    padding:50px;
+}
+
+
+.ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ul.rotacion_imagenes{
+    position: relative;
+    width:800px;
+    height:500px;
+    
+}
+
+.ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    width: inherit;
+    background-color: white;
+    transition: opacity .5s;
+
+
+}
+
+.ul.ul.rotacion_imagenes li img{
+    object-fit: cover;
+}
+
+.ul.rotacion_imagenes li:first-child{
+    opacity: 1;
+
+}
+
+.Menu{
+    text-align: center;
+    margin: 30px;
+}
+
+.Menu li{
+    display:inline-block;
+    text-align: center;
+}
+
+.Menu li a{
+    display: inline-block;
+    color:whitesmoke;
+    text-decoration: none;
+    background-color: black;
+    padding: 12px;
+    width: 150px;
+    height:24px;
+    font-size: 24px;
+    border-radius: 100%;
+    opacity: 0.6;
+}
+
+.rotacion_imagenes.li img{
+    width:1100px;
+    min-height: 700px;
+}
+
+h2{
+    font-size: 40px;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:darkred;
+    text-align: center;
+}
+
+.stadistica1{
+    columns: 2;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: beige;
+
+
+}
+h3{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h6{
+    font-size: 13px;
+
+}
+
+.stadistica2{
+    columns: 2;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: beige;
+}
+
+.stadistica2 img{
+    width: 650px;
+}
+
+.About_Text{
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: beige;
+    
+}
+
+.About_me{
+    display:inline-block;
+    align-items: center;
+}
+
+
+.RedesSociales{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.stadistica3 img{
+    width: 600px;
+    height: 350px;
+}
+
+.stadistica3{
+    columns: 2;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: beige;
+}
